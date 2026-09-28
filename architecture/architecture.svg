@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#f7f9fc"/>
+  <text x="550" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Suricata + Wireshark SOC NSM Lab</text>
+  <rect x="70" y="100" width="280" height="150" rx="16" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="210" y="135" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Kali Linux</text>
+  <text x="210" y="170" text-anchor="middle" font-family="Arial" font-size="18">192.168.56.103</text>
+  <text x="210" y="205" text-anchor="middle" font-family="Arial" font-size="16">Nmap / curl / test traffic</text>
+  <rect x="750" y="100" width="280" height="220" rx="16" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="890" y="135" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Ubuntu 26.04</text>
+  <text x="890" y="170" text-anchor="middle" font-family="Arial" font-size="18">192.168.56.104</text>
+  <text x="890" y="205" text-anchor="middle" font-family="Arial" font-size="16">Suricata 8.0.3</text>
+  <text x="890" y="232" text-anchor="middle" font-family="Arial" font-size="16">enp0s3 monitoring</text>
+  <text x="890" y="259" text-anchor="middle" font-family="Arial" font-size="16">Python HTTP test service</text>
+  <text x="890" y="286" text-anchor="middle" font-family="Arial" font-size="16">enp0s8 = NAT</text>
+  <line x1="350" y1="175" x2="750" y2="175" stroke="#333" stroke-width="4"/>
+  <polygon points="735,165 755,175 735,185" fill="#333"/>
+  <text x="550" y="160" text-anchor="middle" font-family="Arial" font-size="16">VirtualBox Host-only 192.168.56.0/24</text>
+  <rect x="120" y="370" width="220" height="110" rx="14" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="230" y="405" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">tcpdump</text>
+  <text x="230" y="435" text-anchor="middle" font-family="Arial" font-size="15">PCAP acquisition</text>
+  <rect x="440" y="370" width="220" height="110" rx="14" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="550" y="405" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">EVE JSON</text>
+  <text x="550" y="435" text-anchor="middle" font-family="Arial" font-size="15">Structured IDS telemetry</text>
+  <rect x="760" y="370" width="220" height="110" rx="14" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="870" y="405" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">Wireshark</text>
+  <text x="870" y="435" text-anchor="middle" font-family="Arial" font-size="15">Packet investigation</text>
+  <line x1="850" y1="320" x2="230" y2="370" stroke="#555" stroke-width="3"/>
+  <line x1="890" y1="320" x2="550" y2="370" stroke="#555" stroke-width="3"/>
+  <line x1="890" y1="320" x2="870" y2="370" stroke="#555" stroke-width="3"/>
+  <rect x="270" y="520" width="560" height="60" rx="12" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="550" y="558" text-anchor="middle" font-family="Arial" font-size="19">SOC triage → IOC extraction → MITRE mapping → incident report</text>
+</svg>

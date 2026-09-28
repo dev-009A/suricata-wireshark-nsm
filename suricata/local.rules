@@ -1,0 +1,2 @@
+# Controlled SOC lab detection: HTTP service access on TCP/8080
+alert tcp $HOME_NET any -> $HOME_NET 8080 (msg:"SOC LAB - HTTP Test Service Access"; flow:to_server; sid:1000001; rev:1;)

@@ -1,0 +1,29 @@
+# Suricata telemetry
+*.json
+*.log
+suricata.log
+eve.json
+eve-clean.json
+eve-original-backup.json
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
+*.key
+*.crt
